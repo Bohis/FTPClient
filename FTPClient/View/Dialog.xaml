@@ -1,0 +1,68 @@
+﻿<Window x:Class="FTPClient.View.Dialog"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:FTPClient.View"
+		mc:Ignorable="d"
+		Title="Dialog"
+		Height="350"
+		Width="450"
+		WindowStartupLocation="CenterScreen"
+		BorderBrush="Black"
+		ResizeMode="NoResize"
+		BorderThickness="5"
+		Background="#61D7A4">
+	<Grid ShowGridLines="False">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="3*" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.3*" />
+			<RowDefinition Height="0.4*" />
+			<RowDefinition Height="*" />
+			<RowDefinition Height="0.4*" />
+			<RowDefinition Height="0.2*" />
+		</Grid.RowDefinitions>
+
+		<TextBlock Name="TextBlockTitle"
+				   Grid.Column="1"
+				   Grid.Row="1"
+				   HorizontalAlignment="Center"
+				   VerticalAlignment="Center"
+				   FontSize="20"
+				   FontFamily="arial black">
+			Название
+		</TextBlock>
+
+		<TextBox Grid.Column="1"
+				 Name="TextBoxFiled"
+				 Grid.Row="2"
+				 Margin="3,3,3,3"
+				 FontFamily="arial black"
+				 Height="40"
+				 BorderBrush="Black"
+				 BorderThickness="1"
+				 FontSize="20"
+				 HorizontalContentAlignment="Center"
+				 VerticalContentAlignment="Center"
+				 Background="#E7E7E7">
+			ввод
+		</TextBox>
+
+		<Button Grid.Column="1"
+				Grid.Row="3"
+				Margin="3,3,3,3"
+				BorderBrush="Black"
+				BorderThickness="3"
+				FontSize="16"
+				HorizontalContentAlignment="Center"
+				VerticalContentAlignment="Center"
+				Name="ButtonEnter"
+				FontFamily="arial black">
+			кнопка
+		</Button>
+	</Grid>
+</Window>

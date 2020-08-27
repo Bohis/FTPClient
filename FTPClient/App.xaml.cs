@@ -11,5 +11,8 @@ namespace FTPClient {
 	/// Логика взаимодействия для App.xaml
 	/// </summary>
 	public partial class App : Application {
+		App() {
+			InitializeComponent();
+		}
 	}
 }

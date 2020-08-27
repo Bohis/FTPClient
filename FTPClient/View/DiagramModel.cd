@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FTPClient.Model.Client">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQABAAACAAAAAAQACARAQCAAAAACAASAQMARAAAAQA=</HashCode>
+      <FileName>Model\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTPClient.Model.DirectoryListParser">
+    <Position X="5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAEAEAAAAAAIAAACAAgAIAEAAAAAAAAAAI=</HashCode>
+      <FileName>Model\DirectoryListParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTPClient.Model.FileInformation">
+    <Position X="2.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhCCAAAAAAIAAAAAAAAIDAIEAAIABAAAAAAgAAAA=</HashCode>
+      <FileName>Model\FileInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTPClient.Model.Log">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="FTPClient.Model.Log.BaseMod">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Log.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAABAAAAAAAAAAAAAAgAAAAgAgAAAgAA=</HashCode>
+      <FileName>Model\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FTPClient.Model.FileListStyle">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\FileListStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTPClient.Model.TypeLog">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Model\TypeLog.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
